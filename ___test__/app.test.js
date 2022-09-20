@@ -1,5 +1,5 @@
 import request from "supertest";
-import app from "./app.js";
+import app from "../app.js";
 
 describe("GET /", () => {
   test("runningの文字列が返ってくる", async () => {
