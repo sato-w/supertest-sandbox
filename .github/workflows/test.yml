@@ -6,7 +6,7 @@ on:
       - main
       - 'feat/**'
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
     
